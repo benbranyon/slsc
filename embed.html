@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embed Script for AoS</title>
+  </head>
+  <body>
+    <script>
+      fetch(
+        "https://cdn.jsdelivr.net/gh/benbranyon/slsc@latest/react/index.html"
+      )
+        .then((data) => data.text())
+        .then(
+          (html) =>
+            (document.getElementById("like_button_container").innerHTML = html)
+        );
+    </script>
+  </body>
+</html>
