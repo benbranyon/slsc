@@ -2,8 +2,9 @@
 /*
 Template Name: Architecture of Surveillance
 Template Post Type: page
-*/ ?>
-<?php get_header(); ?>
+*/
+
+get_header(); ?>
 
 <div class="content">
 	<h1><?php the_title(); ?></h1>
