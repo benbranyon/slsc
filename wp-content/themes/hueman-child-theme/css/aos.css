@@ -1,0 +1,47 @@
+.page-template-page-architecture-of-surveillance #page {
+  background-color: #000;
+  margin-top: 0px;
+}
+
+.page-template-page-architecture-of-surveillance #page .container-inner {
+  background: #000;
+  max-width: 1600px;
+}
+
+.page-template-page-architecture-of-surveillance .main-inner {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.page-template-page-architecture-of-surveillance .container-inner .main {
+  background-color: #000!important;
+  padding-top: 40px;
+}
+
+.page-template-page-architecture-of-surveillance .container-inner > .main::before,
+.page-template-page-architecture-of-surveillance .container-inner > .main::after {
+  display: none;
+}
+
+.page-template-page-architecture-of-surveillance .container-inner .main h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.aos-intro-image {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.aos-infographic__info {
+  color: #fff;
+}
+
+.aos-infographic__info h2 {
+  color: #fff;
+}
+
+.aos-infographic {
+  align-items: center;
+  display: flex;
+}
