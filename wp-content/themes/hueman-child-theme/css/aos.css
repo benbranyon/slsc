@@ -35,6 +35,16 @@
 
 .aos-infographic__info {
   color: #fff;
+  width: 30%;
+}
+
+.aos-infographic__info .button {
+  background-color: #fff;
+  color: #333;
+  display: block;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
 .aos-infographic__info h2 {
@@ -44,4 +54,9 @@
 .aos-infographic {
   align-items: center;
   display: flex;
+}
+
+.aos-infographic__animation {
+  height: 720px;
+  width: 70%;
 }
