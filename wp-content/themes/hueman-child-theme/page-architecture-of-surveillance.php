@@ -8,9 +8,6 @@ get_header(); ?>
 
 <div class="content">
 	<h1><?php the_title(); ?></h1>
-	<div class="aos-intro-image">
-		<img src="/wp-content/themes/hueman-child-theme/assets/images/aos-still.png"/>
-	</div>
 	<div class="aos-infographic">
 		<div class="aos-infographic__info">
 			<h2>Trapwire</h2>
@@ -25,9 +22,17 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="aos-infographic__animation">
-		    <video autoplay="" class="infographic-video" muted="" playsinline="">
-		      <source src="/wp-content/themes/hueman-child-theme/assets/videos/2nd-rising.mp4" type="video/mp4" />
-		    </video>
+			<div class="video-consainer">
+				<img id="source" src="/wp-content/themes/hueman-child-theme/assets/images/loading.png" width="1280" height="720">
+			    <video id="video1" width="1280" height="720">
+			      <source src="/wp-content/themes/hueman-child-theme/assets/videos/2nd-rising.mp4" type="video/mp4"/>
+			      <source src="/wp-content/themes/hueman-child-theme/assets/videos/2nd-rising.webm" type="video/webm" />
+			    </video>
+			    <video id="video2" width="1280" height="720">
+			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/2nd-Lowering.mp4" type="video/mp4"/>
+			    </video>
+			</div>
+		    <canvas id="videoCanvas" width="1280" height="720"></canvas> 
 		</div>
 	</div>
 </div>

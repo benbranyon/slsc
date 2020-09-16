@@ -57,6 +57,9 @@
 }
 
 .aos-infographic__animation {
-  height: 720px;
   width: 70%;
+}
+
+.video-consainer {
+  display: none;
 }
