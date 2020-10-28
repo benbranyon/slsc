@@ -9,6 +9,8 @@ var clipArray = [];
 
 var $video1 = $("#video1");
 var $video2 = $("#video2");
+var $text1 = $('#infographic__text1');
+var $text2 = $('#infographic__text2');
 var image = $('#source');
 
 var timerID;
@@ -19,6 +21,10 @@ var ctx = $canvas[0].getContext("2d");
 function stopTimer() {
   window.clearInterval(timerID);
 }
+
+$('.aos-infographic__display').animate({'opacity': 0}, 1000, function () {
+  $(this).html($text1.html());
+}).animate({'opacity': 1}, 1000);
 
 $('#infographicNext').click(function(event) {
   event.preventDefault();
@@ -36,6 +42,9 @@ $('#infographicNext').click(function(event) {
   $video2[0].load();
 
   $video1[0].play();
+  $('.aos-infographic__display').animate({'opacity': 0}, 1000, function () {
+    $(this).html($text2.html());
+  }).animate({'opacity': 1}, 1000);
 });
 
 $('#infographicPrev').click(function(event) {
@@ -54,6 +63,9 @@ $('#infographicPrev').click(function(event) {
   $video1[0].load();
 
   $video2[0].play();
+  $('.aos-infographic__display').animate({'opacity': 0}, 1000, function () {
+    $(this).html($text1.html());
+  }).animate({'opacity': 1}, 1000);
 });
 
 function drawImage(video) {

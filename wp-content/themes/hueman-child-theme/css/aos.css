@@ -35,7 +35,21 @@
 
 .aos-infographic__info {
   color: #fff;
+  padding: 20px;
   width: 30%;
+}
+
+.aos-infographic__text {
+  display: none;
+}
+
+.aos-infographic__display {
+  min-height: 264px;
+}
+
+.aos-infographic__nav {
+  display: flex;
+  justify-content: space-around;
 }
 
 .aos-infographic__info .button {
