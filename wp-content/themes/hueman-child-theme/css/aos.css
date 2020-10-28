@@ -54,7 +54,7 @@
 }
 
 .aos-infographic__display {
-  min-height: 284px;
+  min-height: 332px;
 }
 
 .aos-list {
@@ -96,4 +96,5 @@
 
 #videoCanvas {
   margin: 20px;
+  width: 100%;
 }
