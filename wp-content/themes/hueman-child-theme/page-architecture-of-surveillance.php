@@ -22,6 +22,39 @@ get_header(); ?>
 				</ul>
 			</div>
 			<div class="aos-infographic__text" id="infographic__text2">
+				<h2 class="aos-infographic__title">Fusion Centers</h2>
+				<p>“Mega Spy Centers”</p>
+				<ul class="aos-list">
+					<li>Fusion Centers are hubs, which tie local collectors and users of intelligence data into a National Information Sharing Environment (ISE).</li>
+					<li>LA’s Fusion Center is officially known as the Joint Regional Intelligence Center (JRIC)- located in Norwalk, CA</li>
+					<li>A US Senate Report on Fusion Centers released in October 2012 revealed that Intelligence Gathering at Fusion Centers was Useless, Flawed, Irrelevant, Inappropriate, Unrelated to Terrorism, Outdated, and Potential Violation of Privacy Act Protections.</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text3">
+				<h2 class="aos-infographic__title">SAR</h2>
+				<p>The National Suspicious Activity Reporting (SAR) Initiative was launched in March 2008 by the LAPD with the issuance of Special Order (SO) 11.  SO11 was revised in January of 2012, operating as SO1. An additional revision in August 2012 changed the name to SO17.</p>
+				<p>The SAR program criminalizes ordinary behaviors as “suspicious” and authorizes LAPD to write up secret files on individuals based on speculation and hunches. These files once gathered, are stored and shared with thousands of law enforcement and public agencies, and access to private contractors through Fusion Centers. Suspicious activities listed in SAR include using cameras in public, shooting videos, using binoculars, drawing diagrams, taking notes, and inquiring about hours of operation.The SAR program is not an evidence-based practice.  It criminalizes innocent behavior, creates a culture of suspicion and fear, promotes racial profiling, invades privacy, and wastes precious resources.</p>
+				<p>A recent LAPD Inspector General audit of the SAR program released in January 2015 revealed overwhelming racial profiling of Black communities in Los Angeles:</p>
+				<ul class="aos-list">
+					<li>Over 30% of SARs that went to fusion centers were written on Black residents of LA.  The city’s Black population is less than 10%.</li>
+					<li>In the gender count 50% of SARs that went to fusion centers were written on Black women</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text4">
+				<h2 class="aos-infographic__title">iWATCH</h2>
+				<p>In October 2009, LAPD launched the iWATCH — “See Something, Say Something” program.  It encourages community members to spy and report on fellow community members. A recent LAPD Inspector General audit of the SAR program released in January 2015 revealed community members initiated 81% of SARs.</p>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text5">
+				<h2 class="aos-infographic__title">ATIS-IGG</h2>
+				<p>Anti-Terrorism Intelligence Section: Intelligence Gathering Guidelines.</p>
+				<p>In September 2012 the Los Angeles Police Commission approved new guidelines for intelligence gathering on political groups and others engaged in social justice work.</p>
+				<p>Under new guidelines:</p>
+				<ul class="aos-list">
+					<li>LAPD can place informants at an organization for 180 days based on a tip.</li>
+					<li>LAPD officers can take on fictitious personas for online investigations such as Facebook and other web-based and social media tools</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text6">
 				<h2 class="aos-infographic__title">Trapwire</h2>
 				<ul class="aos-list">
 					<li>Street camera style surveillance system– more accurate than modern facial recognition technology</li>
