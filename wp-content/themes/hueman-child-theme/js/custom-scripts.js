@@ -55,10 +55,10 @@ $('#infographicPrev').click(function(event) {
          else{
              video.currentTime += -.1;
          }
-  },30);
+  },100);
   timerID = window.setInterval(function() {
     drawImage(video);
-  }, 30);
+  }, 100);
   playCounter --;
   $('.aos-infographic__display').animate({'opacity': 0}, 1000, function () {
     $(this).html($('#infographic__text'+textCounter).html());
