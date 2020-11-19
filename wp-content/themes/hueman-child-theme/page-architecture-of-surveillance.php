@@ -55,11 +55,106 @@ get_header(); ?>
 				</ul>
 			</div>
 			<div class="aos-infographic__text" id="infographic__text6">
+				<h2 class="aos-infographic__title">Predictive Policing</h2>
+				<p>With its history of building statistical model of “terrorist and insurgent activities” in Iraq and Afghanistan, this “new high-tech method is increasingly being used by police to crunch crime statistics and other data with algorithms to “predict” when and where future crimes are most likely to occur.</p>
+				<p>By feeding history of predominantly survival crime in low income neighborhoods, predictive policing is inherently biased leading to same neighborhoods, poor neighborhoods, predominantly nonwhite communities, people of color impacted by increased police presence and police violence.</p>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text7">
 				<h2 class="aos-infographic__title">Trapwire</h2>
 				<ul class="aos-list">
 					<li>Street camera style surveillance system– more accurate than modern facial recognition technology</li>
 					<li>Every few seconds, data picked up at surveillance points are recorded digitally on the spot, then encrypted and instantaneously delivered to a fortified central database center at an undisclosed location to be aggregated with other intelligence.</li>
 					<li>Documents have revealed that LAPD has invested heavily in this.</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text8">
+				<h2 class="aos-infographic__title">Stingray</h2>
+				<ul class="aos-list">
+					<li>These devices mimic cell phone towers, electronically fooling all nearby mobile phones to send their signals into an LAPD computer.</li>
+					<li>The technology sucks up the data of every cell phone in the area, and phone owners never know police are grabbing their information.</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text9">
+				<h2 class="aos-infographic__title">DRT</h2>
+				<p>Digital Receiver Technology “dirt boxes”</p>
+				<ul class="aos-list">
+					<li>This is Stingray on steroids· 	LAPD has been using DRT Boxes for 10 years</li>
+					<li>DRT is a Military Surveillance technology that can intercept data, calls and text messages from hundreds of cell phones simultaneously, as well as jam device transmissions</li>
+					<li>The extent of proliferation of this technology in LAPD is still not known</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text10">
+				<h2 class="aos-infographic__title">ALPR</h2>
+				<p>Automatic License Plate Reader</p>
+				<ul class="aos-list">
+					<li>High-speed cameras mounted on poles and patrol cars that record every passing vehicle’s license plate, along with time, date and location.</li>
+					<li>Millions are being scanned regularly</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text11">
+				<h2 class="aos-infographic__title">HD Camera</h2>
+				<ul class="aos-list">
+					<li>LAPD uses high-definition cameras that stream video to a remote command post and is also agile enough for use in densely packed, large-crowd events.</li>
+					<li>During Occupy, LAPD had a mesh system with Axis cameras deployed around the encampment at City Hall Park for most of the last few weeks it was going on.</li>
+					<li>LAPD Counter Terrorism and Special Operations Bureau surveillance system includes HD cameras that can be easily installed on a temporarily basis for covert investigations and crowd control.</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text12">
+				<h2 class="aos-infographic__title">Body Cameras</h2>
+				<ul class="aos-list">
+					<li>Body Worn Cameras: An Empty Reform to Expand the Surveillance State</li>
+					<li>Body Cameras have not helped enforce accountability.</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text13">
+				<h2 class="aos-infographic__title">Militarization</h2>
+				<p>Through the Urban Area Security Initiative (UASI) and the Department of Defense 1033 program, Billions of dollars of funding and military grade equipment have been disbursed to local police departments for “counter-terrorism programs.”</p>
+				<ul class="aos-list">
+					<li>Between 2003 and 2012 local law enforcement agencies received over $7 Billion through UASI for “unique planning, organization, equipment training and exercise needs of high-threat, high-density urban areas that are susceptible to terrorism and other calamities.”  To date the Greater Los Angeles area has received almost $800 Million.</li>
+					<li>Since 1997 the Department of Defense’s (DOD) Excess Property Program of the National Defense Authorization Act (NDAA), more commonly known as the “1033 program,” has given surplus equipment such as “office equipment, tents, generators, pick-up trucks and ATVs” as well as “military aircraft, weapons (including grenade launchers), and heavily armored tactical vehicles” to local police departments.  However, 1033 creates a perverse incentive whereby equipment given to local law enforcement “must be placed into use within one (1) year of receipt, unless the condition of the property renders it unusable.”</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text14">
+				<h2 class="aos-infographic__title">Drones</h2>
+				<p>In May 2014 LAPD received 2 Draganflyer X6 Drones from the Seattle Police Department for no cost.  In July 2014 the Stop LAPD Spying Coalition in partnership with several organizations launched the Drone-Free LAPD/No Drones, LA! Campaign.  The acquisition of drones by the LAPD signifies a giant step forward in the militarization of local law enforcement. The use of drone technology continues the normalization of surveillance. Drone technology in the hands of Los Angeles Police Department must be stopped because:</p>
+				<ul class="aos-list">
+					<li>LAPD cannot be trusted- in April 2014 it was exposed that LAPD officers sabotaged voice recording and video equipment inside patrol cars installed to monitor officer conduct;</li>
+					<li>Drones open the door to an unparalleled invasion of everyone’s privacy, and create a great potential of false identification;</li>
+					<li>With LAPD’s history of “Mission Creep” there is no guarantee that drones will only be used for their stated purpose;</li>
+					<li>Historically drones are used to commit acts of war abroad therefore it is logical for Angeleños to question if drones open the door to usage for ”The War at Home.”</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text15">
+				<h2 class="aos-infographic__title">DHS Memo</h2>
+				<ul class="aos-list">
+					<li>Local police forces are engaged in the planting of informants and the infiltration of organizations</li>
+					<li>A July 2013 Department of Homeland Security (DHS) memo claims – “Self-Identified Anarchists Extremists Target Urban ‘Gentrification’ Sites with Arson.</li>
+					<li>The memo ends with a call to file suspicious activity Reports – SARs</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text16">
+				<h2 class="aos-infographic__title">Data Collection</h2>
+				<ul class="aos-list">
+					<li>14,200 local law enforcement agencies now have the capability to share SARs;</li>
+					<li>53 federal agencies are participating in the National SAR Initiative</li>
+					<li>SE/SAR shared space (fusion centers, FBI e-Guardian etc) filings nationally increased from 3256 in January 2010 to 27,855 in October 2012, a 750% jump</li>
+				</ul>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text17">
+				<h2 class="aos-infographic__title">Profiling</h2>
+				<p>The occurrence of racial and ethnic profiling is deeply embedded in these programs.  For example the Office of Inspector General released an audit of LAPD’s SAR program in March 2013 followed by another audit released in January 2015. The March 2013 audit revealed that out of a four month sample of race/descent data, over 82% of the SARs were filed on individuals belonging to groups identified as non-white. The largest numbers of SARs were filed on African-Americans.  The January 2015 audit revealed that over 30% of SARs that went to fusion centers were written on African-Americans.  Los Angeles has less than 10% African-American population, the audit showed a 3 to 1 disproportionate impact on LA’s Black community.  In the gender count 50% of SARs were opened on Black women.</p>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text18">
+				<h2 class="aos-infographic__title">Corporate Profit</h2>
+				<p>Surveillance, Spying, and Infiltration programs have been a major source of corporate profit making.  It’s not just Taser International, manufacturers and suppliers of body cameras, whose stock prices have doubled over the last year but for years hundreds and thousands of “security firms” are milking the Surveillance Industrial Complex that sees no end to the “War on Terror.” As of July 19, 2010 some 1,271 government organizations and 1,931 private companies worked on programs related to counter-terrorism, homeland security and intelligence in about 10,000 locations across the United States.</p>
+			</div>
+			<div class="aos-infographic__text" id="infographic__text19">
+				<h2 class="aos-infographic__title">Policing Strategies and Tactics</h2>
+				<ul class="aos-list">
+					<li>Counter-terrorism and counter-insurgency programs have merged into everyday policing. For example, Suspicious Activity Reporting (SAR) and Predictive Policing were initially designed for counter-terrorism and counter-insurgency, but are now primary tactics of domestic policing.  Evidence shows disparate impact on non-white communities.</li>
+					<li>Data collected against individuals who are not suspected of any crime, let alone terrorism, are entered into city, state and federal databases such as fusion centers where they can be retained- as in the case of the FBI, retention is allowed for up to 30 years.</li>
+					<li>Mere suspicion becomes seen as “observed behavior” (behavioral surveillance or rather speculation) that is “reasonably indicative” of preoperational planning (no longer probable cause or reasonable suspicion, but now reasonable indication which is defined as an articulable “concern”). These are vague and meaningless standards with police now routinely using intelligence-led policing methodology through information gathering, storing, and sharing.</li>
+					<li>Allows the routine use of innocent activity (taking pictures or using binoculars in public) as suspicious- opening formal police investigations without one’s knowledge.</li>
 				</ul>
 			</div>
 			<div class="aos-infographic__nav">
