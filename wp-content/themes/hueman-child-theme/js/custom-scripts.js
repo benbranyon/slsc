@@ -43,12 +43,21 @@ $('#infographicNext').click(function(event) {
 $('#infographicPrev').click(function(event) {
   event.preventDefault();
   stopTimer();
-  alert(playCounter);
   textCounter --;
-
-  $('#video'+playCounter)[0].play();
+  var video = $('#video'+playCounter)[0];
+  video.playbackRate = 1.0;
+  var intervalRewind = setInterval(function(){
+         video.playbackRate = 1.0;
+         if(video.currentTime == 0){
+             clearInterval(intervalRewind);
+             video.pause();
+         }
+         else{
+             video.currentTime += -.1;
+         }
+  },30);
   timerID = window.setInterval(function() {
-    drawImage($('#video'+playCounter)[0]);
+    drawImage(video);
   }, 30);
   playCounter --;
   $('.aos-infographic__display').animate({'opacity': 0}, 1000, function () {
