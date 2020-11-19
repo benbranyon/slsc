@@ -158,7 +158,7 @@ get_header(); ?>
 				</ul>
 			</div>
 			<div class="aos-infographic__nav">
-				<a href="#" class="button" id="infographicPrev">Prev</a>
+				<a href="#" class="button m-hidden" id="infographicPrev">Prev</a>
 				<a href="#" class="button" id="infographicNext">Next</a>
 			</div>
 		</div>

@@ -30,7 +30,9 @@ $('#infographicNext').click(function(event) {
   stopTimer();
   playCounter ++;
   textCounter ++;
-
+  if($('#infographicPrev').css('visibility') == 'hidden'){
+    $('#infographicPrev').addClass("m-fadeIn");
+  }
   $('#video'+playCounter)[0].play();
   timerID = window.setInterval(function() {
     drawImage($('#video'+playCounter)[0]);

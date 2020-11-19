@@ -69,6 +69,17 @@
   justify-content: space-around;
 }
 
+.m-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.m-fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
 .aos-infographic__info .button {
   background-color: #fff;
   color: #333;
