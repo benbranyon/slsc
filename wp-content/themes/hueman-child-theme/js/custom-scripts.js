@@ -30,10 +30,15 @@ $('#infographicNext').click(function(event) {
   playCounter ++;
   textCounter ++;
   if(playCounter == 19) {
-    $('#finalShot')[0].play();
-    timerID = window.setInterval(function() {
-      drawImage($('#finalShot')[0]);
-    }, 30);    
+    $('.aos-infographic__info').slideUp();
+    $('.aos-infographic__animation').animate({    
+      width: "100%"
+    }, 5000, function() {
+      $('#finalShot')[0].play();
+      timerID = window.setInterval(function() {
+        drawImage($('#finalShot')[0]);
+      }, 30);  
+    });  
   }
   else {
     if($('#infographicPrev').css('visibility') == 'hidden'){
