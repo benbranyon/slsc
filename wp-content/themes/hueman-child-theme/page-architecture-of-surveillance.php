@@ -12,6 +12,9 @@ get_header(); ?>
 		<div class="aos-infographic__info">
 			<div class="aos-infographic__display">
 			</div>
+			<div class="aos-infographic__text" id="infographic__text-intro">
+			  <p>Large amounts of information gathering by police departments is done through electronic surveillance equipment such as Stingrays, automatic license plate readers (ALPR), TrapWire, high definition cameras, body cameras, drones, CCTV, social media surveillance, and much more. Information collected by these surveillance tools criminalize a person’s daily lived experience. Documents obtained by the Stop LAPD Spying Coalition have repeatedly demonstrated that these programs inflict grave harm to community members. Without the massive amounts of surveillance equipment deployed by LAPD, creating ever-present surveillance within communities, the operationalization of programs like Data Informed Community Focused Policing could not exist. The now defunct LASER program is an example of how location-based policing and person-based policing was dependent on CCTV, ALPRs, risk assessments, crime databases, Field Interview (FI) cards, and ArcGIS, with plans to expand the use of Palantir mobile and social network analysis into the program</p>
+			</div>
 			<div class="aos-infographic__text" id="infographic__text1">
 				<h2 class="aos-infographic__title">Joint Terrorism Task Force</h2>
 				<ul class="aos-list">
@@ -221,6 +224,9 @@ get_header(); ?>
 			    </video>
 			    <video id="video19" width="1280" height="720">
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/19.mp4" type="video/mp4"/>
+			    </video>
+			    <video id="finalShot" width="1280" height="720">
+			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/last_shot.mp4" type="video/mp4"/>
 			    </video>
 			</div>
 		    <canvas id="videoCanvas" width="1280" height="720"></canvas> 

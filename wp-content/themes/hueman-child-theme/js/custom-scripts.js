@@ -5,11 +5,10 @@ jQuery( document ).ready(function( $ ) {
   'use strict';
 
 var playCounter = 0;
-var textCounter = 1;
+var textCounter = 0;
 
 var $video1 = $("#video1");
-var $text1 = $('#infographic__text1');
-var $text2 = $('#infographic__text2');
+var $text1 = $('#infographic__text-intro');
 var image = $('#source');
 
 var timerID;
@@ -30,16 +29,24 @@ $('#infographicNext').click(function(event) {
   stopTimer();
   playCounter ++;
   textCounter ++;
-  if($('#infographicPrev').css('visibility') == 'hidden'){
-    $('#infographicPrev').addClass("m-fadeIn");
+  if(playCounter == 19) {
+    $('#finalShot')[0].play();
+    timerID = window.setInterval(function() {
+      drawImage($('#finalShot')[0]);
+    }, 30);    
   }
-  $('#video'+playCounter)[0].play();
-  timerID = window.setInterval(function() {
-    drawImage($('#video'+playCounter)[0]);
-  }, 30);
-  $('.aos-infographic__display').animate({'opacity': 0}, 1000, function () {
-    $(this).html($('#infographic__text'+textCounter).html());
-  }).animate({'opacity': 1}, 1000);
+  else {
+    if($('#infographicPrev').css('visibility') == 'hidden'){
+      $('#infographicPrev').addClass("m-fadeIn");
+    }
+    $('#video'+playCounter)[0].play();
+    timerID = window.setInterval(function() {
+      drawImage($('#video'+playCounter)[0]);
+    }, 30);
+    $('.aos-infographic__display').animate({'opacity': 0}, 1000, function () {
+      $(this).html($('#infographic__text'+textCounter).html());
+    }).animate({'opacity': 1}, 1000);
+  }
 });
 
 $('#infographicPrev').click(function(event) {
