@@ -30,7 +30,7 @@ $('#infographicNext').click(function(event) {
   playCounter ++;
   textCounter ++;
   if(playCounter == 19) {
-    $('.aos-infographic__info').slideUp();
+    $('.aos-infographic__info').slideUp('slow');
     $('.aos-infographic__animation').animate({    
       width: "100%"
     }, 5000, function() {
