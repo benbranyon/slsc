@@ -168,64 +168,64 @@ get_header(); ?>
 		<div class="aos-infographic__animation">
 			<div class="video-consainer">
 				<img id="source" src="/wp-content/themes/hueman-child-theme/assets/images/loading.png" width="1280" height="720">
-			    <video id="video1" width="1280" height="720">
+			    <video id="video1" width="1280" height="720" playsinline>
 			      <source src="/wp-content/themes/hueman-child-theme/assets/videos/1.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video2" width="1280" height="720">
+			    <video id="video2" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/2.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video3" width="1280" height="720">
+			    <video id="video3" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/3.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video4" width="1280" height="720">
+			    <video id="video4" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/4.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video5" width="1280" height="720">
+			    <video id="video5" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/5.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video6" width="1280" height="720">
+			    <video id="video6" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/6.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video7" width="1280" height="720">
+			    <video id="video7" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/7.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video8" width="1280" height="720">
+			    <video id="video8" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/8.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video9" width="1280" height="720">
+			    <video id="video9" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/9.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video10" width="1280" height="720">
+			    <video id="video10" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/10.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video11" width="1280" height="720">
+			    <video id="video11" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/11.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video12" width="1280" height="720">
+			    <video id="video12" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/12.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video13" width="1280" height="720">
+			    <video id="video13" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/13.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video14" width="1280" height="720">
+			    <video id="video14" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/14.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video15" width="1280" height="720">
+			    <video id="video15" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/15.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video16" width="1280" height="720">
+			    <video id="video16" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/16.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video17" width="1280" height="720">
+			    <video id="video17" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/17.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video18" width="1280" height="720">
+			    <video id="video18" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/18.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="video19" width="1280" height="720">
+			    <video id="video19" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/19.mp4" type="video/mp4"/>
 			    </video>
-			    <video id="finalShot" width="1280" height="720">
+			    <video id="finalShot" width="1280" height="720" playsinline>
 			    	<source src="/wp-content/themes/hueman-child-theme/assets/videos/last_shot.mp4" type="video/mp4"/>
 			    </video>
 			</div>

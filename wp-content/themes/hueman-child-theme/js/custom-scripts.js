@@ -33,7 +33,7 @@ $('#infographicNext').click(function(event) {
     $('.aos-infographic__info').slideUp('slow');
     $('.aos-infographic__animation').animate({    
       width: "100%"
-    }, 5000, function() {
+    }, 4000, function() {
       $('#finalShot')[0].play();
       timerID = window.setInterval(function() {
         drawImage($('#finalShot')[0]);
