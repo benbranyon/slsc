@@ -1,5 +1,6 @@
 .page-template-page-architecture-of-surveillance #page {
-  background: linear-gradient(to bottom, #2d465e 0%, #24394c 80%);
+  /*background: linear-gradient(to bottom, #2d465e 0%, #24394c 80%);*/
+  background: linear-gradient(to bottom, #2d465e 15%, #000 85%);
   margin-top: 0px;
 }
 
@@ -32,6 +33,7 @@
 .aos-page-title {
   font-size: 36px;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .aos-intro-image {
@@ -78,6 +80,7 @@
 .aos-infographic__nav {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .m-hidden {
@@ -95,10 +98,19 @@
   background-color: #fff;
   color: #333;
   display: block;
-  margin-top: 20px;
-  padding: 20px;
+  height: 35px;
+  padding: 15px;
   text-align: center;
-  width: 60px;
+  width: 35px;
+}
+
+.aos-infographic__info .button img {
+  height: 35px;
+  width: 35px;
+}
+
+#infographicPrev {
+  transform: rotate(180deg);
 }
 
 .aos-infographic__info h2 {
@@ -133,6 +145,12 @@
 
 #videoCanvas {
   box-shadow: 0 -19px 21px 2px #2d465e;
-  margin: 20px;
+  margin: 0px;
   width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  #videoCanva {
+    margin: 20px;
+  }
 }

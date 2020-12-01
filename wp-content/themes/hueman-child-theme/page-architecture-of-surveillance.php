@@ -10,6 +10,10 @@ get_header(); ?>
 	<h1 class="aos-page-title"><?php the_title(); ?></h1>
 	<div class="aos-infographic">
 		<div class="aos-infographic__info">
+			<div class="aos-infographic__nav">
+				<a href="#" class="button m-hidden" id="infographicPrev"><img src="/wp-content/themes/hueman-child-theme/assets/images/arrow-left.svg" alt="Previous Button"/></a>
+				<a href="#" class="button" id="infographicNext"><img src="/wp-content/themes/hueman-child-theme/assets/images/arrow-right.svg" alt="Next Button"/></a>
+			</div>
 			<div class="aos-infographic__display">
 			</div>
 			<div class="aos-infographic__text" id="infographic__text-intro">
@@ -159,10 +163,6 @@ get_header(); ?>
 					<li>Mere suspicion becomes seen as “observed behavior” (behavioral surveillance or rather speculation) that is “reasonably indicative” of preoperational planning (no longer probable cause or reasonable suspicion, but now reasonable indication which is defined as an articulable “concern”). These are vague and meaningless standards with police now routinely using intelligence-led policing methodology through information gathering, storing, and sharing.</li>
 					<li>Allows the routine use of innocent activity (taking pictures or using binoculars in public) as suspicious- opening formal police investigations without one’s knowledge.</li>
 				</ul>
-			</div>
-			<div class="aos-infographic__nav">
-				<a href="#" class="button m-hidden" id="infographicPrev">Prev</a>
-				<a href="#" class="button" id="infographicNext">Next</a>
 			</div>
 		</div>
 		<div class="aos-infographic__animation">
