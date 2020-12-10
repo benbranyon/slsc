@@ -32,6 +32,7 @@
 
 .aos-page-title {
   font-size: 36px;
+  line-height: 1;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -79,8 +80,8 @@
 
 .aos-infographic__nav {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  justify-content: center;
+  margin: 20px;
 }
 
 .m-hidden {
@@ -94,23 +95,30 @@
   transition: visibility 0s linear 0s, opacity 300ms;
 }
 
-.aos-infographic__info .button {
-  background-color: #fff;
+.aos-infographic_intro .button {
+  background-color: #9FACBD;
+  border: 1px solid #F1F1E6;
+  border-radius: 30px;
   color: #333;
   display: block;
   height: 35px;
-  padding: 15px;
+  padding: 12px;
   text-align: center;
   width: 35px;
 }
 
-.aos-infographic__info .button img {
+.aos-infographic_intro .button:hover {
+  background-color: #EDFBFF;
+}
+
+.aos-infographic_intro .button img {
   height: 35px;
   width: 35px;
 }
 
 #infographicPrev {
   transform: rotate(180deg);
+  margin-right:20px;
 }
 
 .aos-infographic__info h2 {
