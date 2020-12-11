@@ -167,7 +167,8 @@
 .aos-landing__nav .button {
   background-color: #9FACBD;
   border: 1px solid #F1F1E6;
-  color: #333;
+  color: #000;
+  font-weight: bold;
   display: block;
   padding: 25px;
   text-align: center;
