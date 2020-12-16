@@ -147,6 +147,10 @@
   flex-direction: column-reverse;
 }
 
+.aos-landing {
+  padding: 20px;
+}
+
 .aos-landing__description {
   color: white;
   max-width: 768px;
