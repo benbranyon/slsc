@@ -1,8 +1,9 @@
 .page-template-page-architecture-of-surveillance #page, 
 .page-template-page-architecture-of-surveillance-landing #page {
   /*background: linear-gradient(to bottom, #2d465e 0%, #24394c 80%);*/
-  background: linear-gradient(to bottom, #2d465e 15%, #000 85%);
+  background: #000;
   margin-top: 0px;
+  padding-top: 25px;
 }
 
 .page-template-page-architecture-of-surveillance #page .container-inner,
@@ -159,14 +160,23 @@
   margin-bottom: 40px;
 }
 
+.aos-landing-subtitle {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 1em;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .aos-landing__nav {
   display: flex;
   justify-content: center;
 }
 
 .aos-landing__nav .button {
-  background-color: #9FACBD;
-  border: 1px solid #F1F1E6;
+  background-color: transparent;
+  border: 5px solid #000;
   color: #000;
   font-weight: bold;
   display: block;
