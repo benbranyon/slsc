@@ -153,13 +153,15 @@
 
 .aos-landing__description {
   color: white;
-  max-width: 768px;
+  font-size: 20px;
+  max-width: 680px;
+  text-align: center;
   text-shadow: 2px 2px 4px #000000;
   margin: 0 auto;
 }
 
 .aos-landing-title {
-  max-width: 500px;
+  max-width: 680px;
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -175,6 +177,7 @@
 
 .aos-landing__nav {
   display: flex;
+  font-size: 20px;
   justify-content: center;
 }
 

@@ -8,7 +8,7 @@ get_header(); ?>
 
 <div class="content">
 	<div class="aos-landing">
-		<h1 class="aos-landing-title"><img src="/wp-content/themes/hueman-child-theme/assets/images/AoS_Title.png" alt="Architecture of Surveillance"/></h1>
+		<h1 class="aos-landing-title"><img src="/wp-content/themes/hueman-child-theme/assets/images/AoS_Title_BioBlue.png" alt="Architecture of Surveillance"/></h1>
 		<div class="aos-landing-subtitle">The information gathering environment</div>
 		<div class="aos-landing__description">
 			<p>
