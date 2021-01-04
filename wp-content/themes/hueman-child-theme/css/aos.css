@@ -176,7 +176,6 @@
 }
 
 .aos-landing__nav {
-  display: flex;
   font-size: 20px;
   justify-content: center;
 }
@@ -199,6 +198,10 @@
 @media only screen and (min-width: 600px) {
   .aos-infographic {
     flex-direction: row;
+  }
+
+  .aos-landing__nav {
+    display: flex;
   }
 }
 
